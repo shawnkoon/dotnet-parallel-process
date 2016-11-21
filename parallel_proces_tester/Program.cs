@@ -16,6 +16,28 @@ namespace parallel_proces_tester
             Parallel.ForEach(listParallels, (curParallels) => curParallels.Print());
             Console.Write("\nPress any key to continue... ");
             Console.ReadKey();
+
+            /*
+            // Using a named method.
+            Parallel.For(0, N, Method2);
+
+            // Using an anonymous method.
+            Parallel.For(0, N, delegate (int i)
+            {
+                // Do Work.
+            });
+
+            // Using a lambda expression.
+            Parallel.For(0, N, i =>
+            {
+                // Do Work.
+            });
+            */
+        }
+
+        public static void Method2(int i)
+        {
+            // Do Work.
         }
     }
 }
