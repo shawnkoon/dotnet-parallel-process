@@ -9,6 +9,7 @@ namespace parallel_proces_tester
     {
         public static void Main(string[] args)
         {
+
         }
     }
 }
