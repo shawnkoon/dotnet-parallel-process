@@ -43,8 +43,22 @@ namespace parallel_proces_tester
 
             while(true)
             {
+                Console.WriteLine("I am the first line of the loop.");
+                Console.WriteLine("Hello World!");
+                Console.WriteLine("##############");
+                Console.WriteLine("----------------------------------------------------");
                 Console.WriteLine("This is an infinite loop doing printing!!...........");
-                Thread.Sleep(100);
+                Console.WriteLine("I am the first line of the loop.");
+                Console.WriteLine("Hello World!");
+                Console.WriteLine("##############");
+                Console.WriteLine("----------------------------------------------------");
+                Console.WriteLine("This is an infinite loop doing printing!!...........");
+                Console.WriteLine("I am the first line of the loop.");
+                Console.WriteLine("Hello World!");
+                Console.WriteLine("##############");
+                Console.WriteLine("----------------------------------------------------");
+                Console.WriteLine("This is an infinite loop doing printing!!...........");
+                Thread.Sleep(10);
             }
         }
 
@@ -72,7 +86,6 @@ namespace parallel_proces_tester
                 for(counter = 0; counter <= 50000; counter++)
                 {
                     Console.WriteLine(counter);
-                    Thread.Sleep(10);
                 }
 
                 return "Counter = " + counter;
