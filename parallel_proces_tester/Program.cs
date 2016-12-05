@@ -86,6 +86,7 @@ namespace parallel_proces_tester
                 for(counter = 0; counter <= 50000; counter++)
                 {
                     Console.WriteLine(counter);
+                    Thread.Sleep(10);
                 }
 
                 return "Counter = " + counter;
